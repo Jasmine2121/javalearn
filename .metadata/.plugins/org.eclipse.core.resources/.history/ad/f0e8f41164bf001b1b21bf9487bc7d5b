@@ -1,0 +1,9 @@
+package demo04;
+
+import java.util.Scanner;
+
+public class demo043 {
+
+	public static void main(String[] args) {
+		
+	}

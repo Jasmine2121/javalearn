@@ -1,0 +1,14 @@
+package demo02;
+
+import java.util.Scanner;
+
+public class demo023 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		int number = (int)(Math.random()*100+1);//[0,1)-->[0,100)-->[1,100]
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package hello;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World");
+		Scanner in = new Scanner(System.in);//做用户输入
+//		System.out.println("echo:" + in.nextLine());
+		int price = 0;
+		final int amount = 100;//变量初始化
+		System.out.println(price);
+		price = in.nextInt();
+		System.out.println(amount+"-" +price+"="+ (100-price));
+	}
+
+}
